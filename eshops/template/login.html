@@ -1,0 +1,350 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="{% static 'images/icons/favicon.png' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/iconic/css/material-design-iconic-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'fonts/linearicons-v1.0.0/icon-font.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animate/animate.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/css-hamburgers/hamburgers.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/animsition/css/animsition.min.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/select2/select2.min.css' %}">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/daterangepicker/daterangepicker.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/slick/slick.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/MagnificPopup/magnific-popup.css' %}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'vendor/perfect-scrollbar/perfect-scrollbar.css' %}">
+<!--===============================================================================================-->
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+<style> 
+    .register{
+      background: -webkit-linear-gradient(left, #fff, #fff);
+      margin-top: 3%;
+      padding: 3%;
+  }
+  .register-left{
+      text-align: center;
+      color: #fff;
+      margin-top: 4%;
+  }
+  .register-left input{
+      border: none;
+      border-radius: 1.5rem;
+      padding: 2%;
+      width: 60%;
+      background: #fff;
+      font-weight: bold;
+      color: #383d41;
+      margin-top: 30%;
+      margin-bottom: 3%;
+      cursor: pointer;
+  }
+  .register-right{
+      background: #fff;
+      border-top-left-radius: 10% 100%;
+      border-bottom-left-radius: 10% 50%;
+  }
+  .register-left img{
+      margin-top: 15%;
+      margin-bottom: 5%;
+      width: 25%;
+      -webkit-animation: mover 2s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  .register-left p{
+      font-weight: lighter;
+      padding: 2%;
+      margin-top: -9%;
+  }
+  .register .register-form{
+      padding: 10%;
+      margin-top: 10%;
+  }
+  .btnRegister{
+      float: right;
+      margin-top: 10%;
+      border: none;
+      border-radius: 1.5rem;
+      padding: 2%;
+      background: #a4c639;
+      color: rgb(243, 247, 242);
+      font-weight: 600;
+      width: 50%;
+      cursor: pointer;
+  }
+  .register .nav-tabs{
+      margin-top: 3%;
+      border: none;
+      background: #d9e6da;
+      border-radius: 1.5rem;
+      width: 28%;
+      float: right;
+  }
+  .register .nav-tabs .nav-link{
+      padding: 2%;
+      height: 34px;
+      font-weight: 600;
+      color: rgb(38, 205, 38);
+      border-top-right-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+  }
+  .register .nav-tabs .nav-link:hover{
+      border: none;
+  }
+  .register .nav-tabs .nav-link.active{
+      width: 100px;
+      color: #fff;
+      border: 2px solid #fff;
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+  }
+  .register-heading{
+      text-align: center;
+      margin-bottom: -15%;
+      color: #fb607f;
+  }
+  .para_2{
+    float: right;
+  }
+
+</style>
+<!--===============================================================================================-->
+</head>
+
+    <!-- Header -->
+        <body style="align:center">
+        <header class="header-v4">
+            <!-- Header desktop -->
+            <div class="container-menu-desktop">
+                
+    
+                <div class="wrap-menu-desktop how-shadow1">
+                    <nav class="limiter-menu-desktop container">
+                        
+                        <!-- Logo desktop -->		
+                        <a href="#" class="logo" style="color:#fb607f">
+                            <h2>Ecomm Store</h2>
+                        </a>
+    
+                        <!-- Menu desktop -->
+                        <div class="menu-desktop">
+                            <ul class="main-menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+    
+                                <li>
+                                    <a href="/men">Men</a>
+                                </li>
+    
+                                <li>
+                                    <a href="/women">Women</a>
+                                </li>
+    
+                                <li>
+                                    <a href="/bag">Bag</a>
+                                </li>
+    
+                                <li>
+                                    <a href="/watch">Watch</a>
+                                </li>
+                                <li>
+                                    <a href="/shoes">Shoes</a>
+                                </li>
+                                <li>
+                                    <a href="/blog">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="/about">About</a>
+                                </li>
+                                <li>
+                                    <a href="/contact">Contact</a>
+                                </li>
+    
+                                {% if user.is_authenticated %}
+                   
+                                    <li>
+                                    <a> Hello,{{user.first_name}}</a>
+                                    </li> 
+                                    <li>
+                                    <a href="/logout">Logout</a>
+                                    </li> 
+                                {% else %}
+                                    <li class="nav-item">
+                                    <a href="/register">Register</a>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                        </div>	
+    
+                        <!-- Icon header -->
+                        <div class="wrap-icon-header flex-w flex-r-m">
+                            <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+                                <i class="zmdi zmdi-search"></i>
+                            </div>
+    
+                            <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="2">
+                                <i class="zmdi zmdi-shopping-cart"></i>
+                            </div>
+    
+                            <a href="#" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti" data-notify="0">
+                                <i class="zmdi zmdi-favorite-outline"></i>
+                            </a>
+                        </div>
+                    </nav>
+                </div>	
+            </div>
+    
+            <!-- Header Mobile -->
+            <div class="wrap-header-mobile">
+                <!-- Logo moblie -->		
+                <div class="logo-mobile">
+                    <a href="index.html" style="color:#fb607f; "><h4>Ecomm Store</h4></a>
+                </div>
+    
+                <!-- Icon header -->
+                <div class="wrap-icon-header flex-w flex-r-m m-r-15">
+                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+                        <i class="zmdi zmdi-search"></i>
+                    </div>
+    
+                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+                        <i class="zmdi zmdi-shopping-cart"></i>
+                    </div>
+    
+                    <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+                        <i class="zmdi zmdi-favorite-outline"></i>
+                    </a>
+                </div>
+    
+                <!-- Button show menu -->
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </div>
+            </div>
+    
+    
+            <!-- Menu Mobile -->
+            <div class="menu-mobile">
+                <ul class="topbar-mobile">
+                    
+                </ul>
+    
+                <ul class="main-menu-m" style="background-color:black">
+                    <li>
+                        <a href="index.html">Home</a>
+                        <ul class="sub-menu-m">
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/men">Men</a>
+                    </li>
+    
+                    <li>
+                        <a href="/women">Women</a>
+                    </li>
+    
+                    <li>
+                        <a href="/bag">Bag</a>
+                    </li>
+    
+                    <li>
+                        <a href="/watch">Watch</a>
+                    </li>
+                    <li>
+                        <a href="/shoes">Shoes</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Blog</a>
+                    </li>
+    
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+    
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Modal Search -->
+            <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+                <div class="container-search-header">
+                    <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+                        <img src="{% static 'images/icons/icon-close2.png' %}" alt="CLOSE">
+                    </button>
+    
+                    <form class="wrap-search-header flex-w p-l-15">
+                        <button class="flex-c-m trans-04">
+                            <i class="zmdi zmdi-search"></i>
+                        </button>
+                        <input class="plh3" type="text" name="search" placeholder="Search...">
+                    </form>
+                </div>
+            </div>
+        </header>
+      <div class="container register">
+                  <div class="row">
+                      
+                      <div class="col-md-12 register-right">
+                          
+                          <div class="tab" id="myTabContent">
+                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                  <h3 class="register-heading">Get Yourself Login</h3>
+                                  <div class="row register-form">
+                                      <div class="col-md-8">
+                                        {% for message in messages %}
+                                                <span style="color:red">{{ message }}</span>
+                                                {% endfor %}  
+                                                <form action="login" method="POST">    
+                                                  {% csrf_token %}
+                                                  
+                                                  <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Username" name="username" required/>
+                                                  </div>                                    
+                                                  <div class="form-group">
+                                                      <input type="password" class="form-control" placeholder="Password" name="psw" required />
+                                                  </div>
+                                                 
+                                                  
+                                                  
+                                                  <input type="submit" class="btnRegister"  value="Log In" style="background-color:#fb607f;color:white;">
+                                              
+                                              Not have an account? <a href="/register">Sign Up</a>
+                                          </div>
+                                      </div>
+                                    </form>
+
+                                  
+    </body>
+  {% comment %} {% endblock %} {% endcomment %}
+</html>
